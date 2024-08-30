@@ -20,10 +20,10 @@
 
 
 .inner-box {
-    width: 90%;
-    height: 95%;
+    width: 50%;
+    height: 55%;
     background-color: aqua;
-    margin:4% 7% 10% 7%; 
+    padding:0% 0% 5% 50%; 
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
