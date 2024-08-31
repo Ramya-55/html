@@ -27,3 +27,23 @@
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
+
+.circle {
+    width: 200px;             
+    height: 200px;            /* Set height of the circle */
+    background-color: lightblue;  /* Background color of the circle */
+    border-radius: 50%;       /* Make the shape circular */
+    display: flex;            /* Use flexbox to center the box */
+    align-items: center;      
+    justify-content: center;
+    position: relative;       
+  
+  
+  .box {
+    width: 100px;             /* Set width of the box */
+    height: 100px; 
+    padding: 20px;           /* Set height of the box */
+    background-color: black; /* Background color of the box */
+  }
+  
+
