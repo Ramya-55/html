@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Top Triangle</title>
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            
+            }
+            .google{
+            position: relative; 
+            display: inline-block;
+            text-align: center;
+        }
+
+    
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent; 
+            border-right: 15px solid transparent; 
+            border-bottom: 15px solid ; 
+            margin: -15px 0 0 20px; 
+            
+    }
+    </style>
+</head>
+<body>
+    <div class="google">
+        <div class="triangle"></div>
+        <input type="button" value="button">
+    </div>
+</body>
+</html>
